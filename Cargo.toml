@@ -1,0 +1,12 @@
+[package]
+name = "isaw"
+version = "0.1.0"
+edition = "2024"
+description = "Generate letter combinations and search for words/sentences"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+itertools = "0.14"
+rayon = "1.10"
+colored = "3"
+regex-lite = "0.1"
